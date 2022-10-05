@@ -100,7 +100,7 @@ function App() {
         label: "Popularity",
         data: movies.map((item) => item.popularity),
         votes: movies.map((item) => item.vote_average),
-        backgroundColor: "rgba(53, 162, 235, 0.5)",
+        backgroundColor: "#0d6efd",
       },
     ],
   };
